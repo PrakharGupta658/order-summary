@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(225, 100%, 94%);
+    height: 100vh;
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+
+}
+.container{
+    min-width: 100px;
+    max-width: 350px;
+    width: 350px;
+    min-height: 75vh;
+    max-height: 70vh;
+    height: 550px;
+    background-color:white;
+    box-shadow: 0rem 0rem 1rem 0rem #0000004d;
+    margin: 0px 1rem;
+    border-radius: 20px;
+    
+}
+.image{
+    margin: 0px 0px 1rem 0px !important;
+    padding: 0 !important;
+    width: 100%;
+
+}
+img{
+    border-radius: 20px;
+}
+.s-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 30px;
+}
+.s-2{
+    display: block;
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+}
+.s-3{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+a{
+    font-size: small;
+    margin-right: 55px;
+}
+.icon{
+    margin-top: 5px;
+    margin-left: 60px;
+}
+.s-4{
+    display: flex;
+    
+    justify-content: center;
+}
+button{
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    font-size: .8rem;
+    padding: 1rem 3rem;
+    margin-top: 15px;  
+}
+
+button:hover{
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    font-size: .8rem;
+    padding: 1rem 3rem;
+    margin-top: 15px; 
+    background-color:hsl(245, 48%, 55%);
+
+}
+
+.s-5{
+    display: flex;
+    justify-content: center;
+    color: hsl(224, 23%, 55%);
+    margin-top: 30px;
+}
